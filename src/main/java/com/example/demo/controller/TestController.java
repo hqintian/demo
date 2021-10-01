@@ -18,7 +18,7 @@ public class TestController {
         Entry entry = null;
         try {
             entry = SphU.entry("hello1");
-            // 资源中的逻辑.踢掉
+            // 资源中的逻辑.踢掉苏打粉苏打粉
             System.out.println(Thread.currentThread().getId() + " Hello Sentinel1");
         } catch (BlockException e1) {
             System.out.println("blocked!");
