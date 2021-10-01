@@ -50,6 +50,7 @@ public class TestController {
                 ContextUtil.exit();
             }
         }
+
         return "Hello Sentinel2";
     }
 }
